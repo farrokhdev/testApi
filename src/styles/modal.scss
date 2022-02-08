@@ -1,0 +1,26 @@
+.ant-modal-content .ant-modal-body {
+  min-height: 300px;
+}
+
+.ant-form-item-control-input {
+  .ant-form-item-control-input-content {
+    textarea {
+      height: 200px;
+    }
+  }
+}
+
+.ant-modal-body {
+  form {
+    .action {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      .ant-row {
+        margin: 0;
+      }
+    }
+  }
+}
